@@ -1,7 +1,4 @@
-read -p " Enter the value of y: " y
-$echo $y
-read -p "Enter the first value: "x
-$echo $x
-z= (($x + $y));
-echo " $x + $y = $z"
-
+X=5;
+Y=9;
+Z=$(( $X + $Y ));
+echo "$X + $Y=$Z"

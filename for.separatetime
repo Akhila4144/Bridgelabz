@@ -1,0 +1,6 @@
+for separate time using in '{ date awk }'
+do
+	echo $%D | ` 'awk' '{ print$D }' `;
+done 
+
+

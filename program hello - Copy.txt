@@ -1,0 +1,11 @@
+class HelloProgram {
+        public static void main(String[] arg) {
+                try {
+                        while(true) {
+                                System.out.println("Hello World");
+                                Thread.sleep(5000);
+                        }
+                } catch (Exception e) {
+                }
+        }
+}

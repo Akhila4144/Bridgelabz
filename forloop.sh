@@ -1,5 +1,5 @@
-for time in date and awk;
+for cnt in {1..10}
 do
-
-	#echo $time | ` awk ' { print $time } ' ` ;
+  	echo $cnt;
 done
+

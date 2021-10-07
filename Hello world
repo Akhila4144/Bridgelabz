@@ -1,0 +1,13 @@
+class Hello world{
+public static void main (string[]args)
+{
+while (true){
+system.out.println("Hello world");
+try{
+thread.sleep(5000);
+}catch(exception){
+}
+}
+}
+}bash: Hello: command not found
+

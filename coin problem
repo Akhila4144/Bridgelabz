@@ -1,0 +1,22 @@
+random=$((RANDOM%2))
+flips=0;
+heads=0;
+tails=0;
+
+while [ $flips -lt 12 ]
+do
+	if [ $random -eq 0 ]
+then
+	echo " heads ":
+	echo $((heads++));
+	echo $((flips++));
+	echo " heads won more times ";
+else
+	echo " tails ":
+	echo $((tails++));
+	echo $((flips++));
+	echo " tails won more times ";
+fi
+
+done
+
